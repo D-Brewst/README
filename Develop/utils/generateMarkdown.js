@@ -17,14 +17,14 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   ## License
-  ${data.license}
+  This app is covered under ${data.license} licensing.
   ## Contributing
   ${data.contributers}
   ## Tests
       ${data.tests}
   ## Questions
-  ${data.github}
-  ${data.email}
+  [GitHub](http://github.com/${data.github})  
+  Free free to email me at ${data.email}.
 `;
 }
 

@@ -29,7 +29,7 @@ const questions = [
           type: "list",
           message: "Choose a license",
           name: "license",
-          choices: ["MIT", "Open Software License 3.0", "Mozilla Public License 2.0", "Microsoft Public License", "European Union Public License 1.1"]
+          choices: ["MIT", "Open Software License 3.0", "ISC", "Microsoft Public License", "European Union Public License 1.1"]
         },
         {
           type: "input",
@@ -43,7 +43,7 @@ const questions = [
         },
         {
           type: "input",
-          message: "Enter your github account.",
+          message: "Enter your github username.",
           name: "github"
         },
         {
